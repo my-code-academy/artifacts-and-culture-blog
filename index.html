@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <style>
+    .topnav {
+      overflow: hidden;
+      background-color: rgb(7, 0, 0);
+    }
+
+    .topnav a {
+      float: left;
+      color: #f2f2f2;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+    }
+
+    .topnav a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+
+    .topnav a.active {
+      background-color: #4CAF50;
+      color: white;
+    }
+
+    .topnav-right {
+      float: right;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      margin: auto;
+    }
+
+    .date {
+      font-size: 10px;
+    }
+
+    .title {
+      font-size: 18px;
+    }
+
+    .abstract {
+      font-size: 13px;
+    }
+
+    /* Float four columns side by side */
+    .column {
+      float: left;
+      width: 25%;
+      padding: 0 10px;
+    }
+
+    /* Remove extra left and right margins, due to padding */
+    .row {
+      margin: 0 -5px;
+      margin-left: 20%;
+    }
+
+    /* Clear floats after the columns */
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+
+    /* Style the cards */
+    .card {
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+      padding: 8px;
+      text-align: center;
+      /* background-color: #f1f1f1; */
+      background-color: rgb(255, 255, 255);
+      margin: 10%;
+    }
+
+    .container {
+      text-align: left;
+    }
+
+    .clap {
+      width: 10%;
+    }
+
+    .heart {
+      width: 10%; 
+      float: right;
+    }
+
+    .image {
+      width: 100%;
+    }
+
+    #readTime {
+      float: right;
+    }
+
+    #readTime {
+      float: left;
+    }
+  </style>
+</head>
+
+<body>
+
+  <nav class="topnav">
+    <a href="#contact"></a>
+    <a href="#news">The Artifact<br>Culture and art blog</a>
+    <div class="topnav-right">
+      <a href="#blog">Blog</a>
+      <a href="#about">About</a>
+      <a href="#about">Contact</a>
+    </div>
+  </nav>
+
+  <div style="padding-left:16px">
+    <h2></h2>
+    <p></p>
+  </div>
+
+  <div class="row">
+    <div class="column">
+      <div class="card">
+        <img src="./Images/abstract.png" alt="abstract" class='image'>
+        <div class="container" >
+          <span class="date">2nd Januray, 2018</span>
+          <span class='date' id="readTime">2 min</span>
+          <p class='title'>The future of abstract art <br> and the culture ...</p>
+          <p class='abstract'>Create a blog post subtitle that summarizes your post in a few short, punchy
+            sentences and entices your...</p>
+          <hr>
+          <img src="./Icons/clapping.svg" class='clap'> 
+          <img src="./Icons/heart-red.svg" class='heart'>
+        </div>
+      </div>
+    </div>
+
+    <div class="column">
+      <div class="card">
+        <img src="./Images/outdoor.png" alt="outdoor" class='image'>
+        <div class="container" >
+          <span class="date">31st Januray, 2018</span>
+          <span class='date'>1 min</span>
+          <p class='title'>How painting outdoors can transform your </p>
+          <p class='abstract'>Create a blog post subtitle that summarizes your post in a few short, punchy
+            sentences and entices your...</p>
+          <hr>
+          <img src="./Icons/clapping.svg" class='clap'>
+          <img src="./Icons/heart-red.svg" class='heart'>
+        </div>
+      </div>
+    </div>
+
+    <div class="column">
+      <div class="card">
+        <img src="./Images/young-painters.png" alt="young-painters" class='image'>
+        <div class="container" >
+          <span class="date">20th March, 2018</span>
+          <span class='date'>2 mins</span>
+          <p class='title'>10 young painters you need to know</p>
+          <p class='abstract'>Create a blog post subtitle that summarizes your post in a few short, punchy
+            sentences and entices your...</p>
+          <hr>
+          <img src="./Icons/clapping.svg" class='clap'>
+          <img src="./Icons/heart-red.svg" class='heart'>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="row">
+    <div class="column">
+      <div class="card">
+        <img src="./Images/perfect-art.png" alt="perfect-art" class='image'>
+        <div class="container" >
+          <span class="date">22nd June, 2018</span>
+          <span class='date'>5 mins</span>
+          <p class='title'>Tips for creating the perfect art</p>
+          <p class='abstract'>Create a blog post subtitle that summarizes your post in a few short, punchy
+            sentences and entices your...</p>
+          <hr>
+          <img src="./Icons/clapping.svg" class='clap'>
+          <img src="./Icons/heart-red.svg" class='heart'>
+        </div>
+      </div>
+    </div>
+
+    <div class="column">
+      <div class="card">
+        <img src="./Images/inspired.png" alt="inspired" class='image'>
+        <div class="container" >
+          <span class="date">4th Feburary, 2019</span>
+          <span class='date'>9 mins</span>
+          <p class='title'>Stay inspired: top artists blog ...</p>
+          <p class='abstract'>Create a blog post subtitle that summarizes your post in a few short, punchy
+            sentences and entices your...</p>
+          <hr>
+          <img src="./Icons/clapping.svg" class='clap'>
+          <img src="./Icons/heart-red.svg" class='heart'>
+        </div>
+      </div>
+    </div>
+
+    <div class="column">
+      <div class="card">
+        <img src="./Images/reason.png" alt="reason" class='image'>
+        <div class="container" >
+          <span class="date">10th Januray, 2019</span>
+          <span class='date'>2 mins</span>
+          <p class='title'>5 reasons why everyone should try an...</p>
+          <p class='abstract'>Create a blog post subtitle that summarizes your post in a few short, punchy
+            sentences and entices your...</p>
+          <hr>
+          <img src="./Icons/clapping.svg" class='clap'>
+          <img src="./Icons/heart-red.svg" class='heart'>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="topnav">
+    <p>@artifact.com 2019</p>
+  </div>
+
+</body>
+
+</html>
